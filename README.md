@@ -16,15 +16,15 @@ Using *Exploratory Data Analysis (EDA), **Principal Component Analysis (PCA), **
 ## Repository Structure
 
 Instacart-Market-Basket-Analysis/
-│── data/ # CSV dataset files
-│ ├── order_products__train.csv
-│ ├── products.csv
-│── notebooks/ # Jupyter notebooks
-│ ├── Instacart-Simple-Data-Exploration.ipynb
-│ ├── Customer-Segments-with-PCA.ipynb
-│ ├── Association-Rule-Mining.ipynb
-│── README.md # Project documentation
-│── requirements.txt # Python dependencies
+- data/ # CSV dataset files
+- order_products__train.csv
+- products.csv
+- notebooks/ # Jupyter notebooks
+- Instacart-Simple-Data-Exploration.ipynb
+- Customer-Segments-with-PCA.ipynb
+- Association-Rule-Mining.ipynb
+- README.md # Project documentation
+- requirements.txt # Python dependencies
 
 ## Tech Stack
 - *Languages:* Python (3.x)
