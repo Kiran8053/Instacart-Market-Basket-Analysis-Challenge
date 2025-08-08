@@ -1,20 +1,19 @@
-# 🛒 Instacart Market Basket Analysis
+# Instacart Market Basket Analysis
 
-## 📌 Overview
+## Overview
 This project analyzes *Instacart's customer purchase patterns* to uncover actionable insights for cross-selling, marketing campaigns, and customer segmentation.  
 Using *Exploratory Data Analysis (EDA), **Principal Component Analysis (PCA), **K-Means Clustering, and **Association Rule Mining (Apriori)*, the project provides data-driven strategies for improving customer engagement.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Segment customers based on purchasing behavior.
 - Identify frequently bought-together items for cross-selling.
 - Derive data-driven marketing recommendations.
 
 ---
 
-## 📂 Repository Structure
-MIT. See the LICENSE file for the copyright notice.
+## Repository Structure
 
 Instacart-Market-Basket-Analysis/
 │── data/ # CSV dataset files
@@ -27,14 +26,14 @@ Instacart-Market-Basket-Analysis/
 │── README.md # Project documentation
 │── requirements.txt # Python dependencies
 
-## 🛠 Tech Stack
+## Tech Stack
 - *Languages:* Python (3.x)
 - *Libraries:* Pandas, NumPy, Matplotlib, Scikit-learn, Mlxtend
 - *Tools:* Jupyter Notebook, GitHub
 
 ---
 
-## 📊 Key Steps & Methodology
+## Key Steps & Methodology
 ### 1. Data Exploration
 - Checked data quality and missing values.
 - Merged multiple CSV tables for complete analysis.
@@ -52,7 +51,7 @@ Instacart-Market-Basket-Analysis/
 
 ---
 
-## 📈 Results & Insights
+## Results & Insights
 - *Top Purchased Products:* Identified the most common items in baskets.
 - *Customer Segments:* Found clear segments with distinct buying behaviors.
 - *Product Associations:* Discovered product combinations often purchased together (e.g., "Bananas" + "Organic Whole Milk").
