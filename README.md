@@ -1,35 +1,58 @@
-# Instacart Market Basket Analysis
+# 🛒 Instacart Market Basket Analysis
 
-This repo shows a set of Jupyter Notebooks that I used to tackle the [Instacart Masket Basket Analysis challenge](https://www.kaggle.com/c/instacart-market-basket-analysis). The [dataset](https://github.com/khanhnamle1994/instacart-orders/tree/master/data) for this competition is a relational set of files describing customers' orders over time. The goal of the competition is to predict which products will be in a user's next order. The dataset is anonymized and contains a sample of over 3 million grocery orders from more than 200,000 Instacart users. For each user, Instacart provides between 4 and 100 of their orders, with the sequence of products purchased in each order. Instacart also provides the week and hour of day the order was placed, and a relative measure of time between orders.
+## 📌 Overview
+This project analyzes *Instacart's customer purchase patterns* to uncover actionable insights for cross-selling, marketing campaigns, and customer segmentation.  
+Using *Exploratory Data Analysis (EDA), **Principal Component Analysis (PCA), **K-Means Clustering, and **Association Rule Mining (Apriori)*, the project provides data-driven strategies for improving customer engagement.
 
-Here are the different notebooks:
-* [Data Exploration](https://github.com/khanhnamle1994/instacart-orders/blob/master/notebooks/Instacart-Simple-Data-Exploration.ipynb): Exploring the raw datasets.
-* [Customer Segmentation](https://github.com/khanhnamle1994/instacart-orders/blob/master/notebooks/Customer-Segments-with-PCA.ipynb): Segmenting the customers with Principal Component Analysis and K-Means Clustering.
-* [Association Rule Mining](https://github.com/khanhnamle1994/instacart-orders/blob/master/notebooks/Association-Rule-Mining.ipynb): Applying the Apriori algorithm to mine association rules between orders and customers.
+---
 
-A 3-part series of accompanied Medium blog posts have been written up and can be viewed here:
-* [Part 1: Which Grocery Items Are Popular?](https://towardsdatascience.com/instacart-market-basket-analysis-part-1-which-grocery-items-are-popular-61cadbb401c8)
-* [Part 2: Which Groups of Customers Are Similar?](https://towardsdatascience.com/instacart-market-basket-analysis-part-2-which-groups-of-customers-are-similar-618e88b0866d)
-* [Part 3: Which Sets of Products Should Be Recommended To Shoppers?](https://towardsdatascience.com/instacart-market-basket-analysis-part-3-which-sets-of-products-should-be-recommended-to-shoppers-9651751d3cd3)
+## 🎯 Objectives
+- Segment customers based on purchasing behavior.
+- Identify frequently bought-together items for cross-selling.
+- Derive data-driven marketing recommendations.
 
-## Environment
+---
 
-* [Saturn Cloud](https://www.saturncloud.io/)
-
-## Requirements
-
-* [Python 3.6](https://www.python.org/downloads/release/python-360/)
-* [Jupyter Notebook](http://jupyter.org/)
-
-## Dependencies
-
-Choose the latest versions of any of the dependencies below:
-* [pandas](https://pandas.pydata.org/)
-* [numpy](http://www.numpy.org/)
-* [scipy](https://www.scipy.org/)
-* [matplotlib](https://matplotlib.org/)
-* [sklearn](http://scikit-learn.org/stable/)
-
-## License
-
+## 📂 Repository Structure
 MIT. See the LICENSE file for the copyright notice.
+
+Instacart-Market-Basket-Analysis/
+│── data/ # CSV dataset files
+│ ├── order_products__train.csv
+│ ├── products.csv
+│── notebooks/ # Jupyter notebooks
+│ ├── Instacart-Simple-Data-Exploration.ipynb
+│ ├── Customer-Segments-with-PCA.ipynb
+│ ├── Association-Rule-Mining.ipynb
+│── README.md # Project documentation
+│── requirements.txt # Python dependencies
+
+## 🛠 Tech Stack
+- *Languages:* Python (3.x)
+- *Libraries:* Pandas, NumPy, Matplotlib, Scikit-learn, Mlxtend
+- *Tools:* Jupyter Notebook, GitHub
+
+---
+
+## 📊 Key Steps & Methodology
+### 1. Data Exploration
+- Checked data quality and missing values.
+- Merged multiple CSV tables for complete analysis.
+- Explored distribution of orders, products, and aisles.
+
+### 2. Customer Segmentation (Unsupervised Learning)
+- Applied *PCA* for dimensionality reduction.
+- Implemented *K-Means clustering* to group customers by purchase behavior.
+- Visualized clusters to understand purchasing patterns.
+
+### 3. Association Rule Mining
+- Used the *Apriori Algorithm* to find frequent item sets.
+- Generated rules with *Support, Confidence, and Lift* metrics.
+- Identified product pairs/trios for cross-selling opportunities.
+
+---
+
+## 📈 Results & Insights
+- *Top Purchased Products:* Identified the most common items in baskets.
+- *Customer Segments:* Found clear segments with distinct buying behaviors.
+- *Product Associations:* Discovered product combinations often purchased together (e.g., "Bananas" + "Organic Whole Milk").
